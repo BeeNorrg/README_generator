@@ -1,0 +1,23 @@
+{
+  "name": "README_generator",
+  "version": "1.0.0",
+  "description": "a node.js app to generate clean and professional readme's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeeNorrg/README_generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeeNorrg/README_generator/issues"
+  },
+  "homepage": "https://github.com/BeeNorrg/README_generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
