@@ -16,6 +16,7 @@
   ## Installation Instructions:
   after downloading the application, open it in your code editor of choice and install inquirer by typing "npm i". Once inquirer is installed, type "node index.js" while in the generator's directory to run it.
   ## Usage Instructions: 
+  ![](reameTutorial.gif)
   Once installed, type "node index.js" to run the application. It will prompt you to input all the most basic information needed to make a readme.
   ## How you can Contribute:
   If you would like to contribute to this tiny application in any way please reach out via email.
