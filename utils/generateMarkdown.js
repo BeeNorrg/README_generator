@@ -109,22 +109,19 @@ function renderLicenseSection(license) {
   ${answers.installation}
   ## Usage Instructions: 
   ${answers.usage}
-  ## How to Contribute:
+  ## How you can Contribute:
   ${answers.contributions}
   ## Testing:
   ${answers.testing} 
   
   ## Questions:
-  Do you have any questions?  Check out my Github Site:
+  Do you have any questions?  Check out my Github!:
   www.github.com/${answers.githubUserName}
-  Reach out via email:
-  <a class="link" href="mailto:${answers.email}">${answers.email}</a>
+  Contact me via email at ${answers.email}
   
   ## License:
-  Distributed under the ${answers.license} license.  Full license information:
-  Licensed under the ${answers.license} License; you may not use this file except in compliance with the License. You may obtain a copy of the License at:
+  Licensed unde the ${answers.license} license.
   ${renderLicenseLink()}
-  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the License for the specific language governing permissions and limitations under the License.
   `;
 };
 

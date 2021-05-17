@@ -52,12 +52,18 @@ const questions = [
     },
 ];
 
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    //create new readme in generated folder, if there's an error throw and error
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('README successfully generated!'))
+    
+}
+
 // TODO: Create a function to initialize app
 function init(){
     inquirer.prompt (questions).then((answers)=> {
         let newREADME = generateMarkdown(answers);
-        //create new readme in generated folder, if there's an error throw and error
-        fs.writeFile('./generated/README.md', newREADME, (err) => err ? console.log(err) : console.log('README successfully generated!'));
+        writeToFile('./generated/README.md', newREADME);
     })
 };
 
